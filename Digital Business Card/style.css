@@ -1,0 +1,129 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #23252C;
+}
+
+.container{
+    max-width: 317px;
+    margin: 1.875em auto;
+    background-color: #1A1B21;
+    border-radius: 20px;
+}
+
+.info-img, .container-main{
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.container-main{
+    border: 1px solid black;
+}
+
+.info-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-title{
+    font-size: 1.5625rem;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.info-role{
+    font-size: 0.8rem;
+    color: #F3BF99;
+    font-weight: 400;
+    margin: 10px 0;
+    
+}
+
+.info-portfolio{
+    font-size: 0.7rem;
+}
+
+a{
+    color: #F5F5F5; 
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;
+    color: #5093E2;
+}
+
+.info-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.info-btn-content, .info-btn-content-linkedin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.info-btn-content-linkedin{
+    background-color: #5093E2;
+}
+
+.info-btn-name{
+    font-size: 0.875rem;
+}
+
+button{
+    width: 115px;
+    border: none;
+    border-radius: 6px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.info-img-linkedin, .linkedin {color: white;}
+
+.about, .interests{
+    width: 250px;
+    margin: 0 auto;
+}
+
+h3{
+    font-size: 16px;
+    color: #F5F5F5;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.about-content, .interests-content{
+    font-size: 0.8rem;
+    color: #DCDCDC;
+    margin-top: 8px;
+}
+
+.interests-content {margin-bottom: 35px;}
+
+.footer{
+    background-color: #161619;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.footer-img{
+    width: 30px;
+    height: 35px;
+    display: block;
+    margin: auto;
+}
+
+.footer-img:hover {cursor: pointer;}
